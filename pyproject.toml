@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfc-coil-calculator"
+version = "2.0.0"
+description = "Offline desktop calculator for rectangular 13.56 MHz NFC PCB spiral coils, with DXF and DWG export"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "89g-dyy" }]
+keywords = [
+    "nfc",
+    "13.56-mhz",
+    "rfid",
+    "inductance",
+    "pcb-antenna",
+    "spiral-coil",
+    "tkinter",
+    "dxf",
+    "dwg",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ezdxf>=1.4.3"]
+build = ["pyinstaller>=6.21", "pillow>=12.0"]
+
+[project.urls]
+Homepage = "https://github.com/89g-dyy/nfc-coil-calculator"
+Repository = "https://github.com/89g-dyy/nfc-coil-calculator"
+Issues = "https://github.com/89g-dyy/nfc-coil-calculator/issues"
+Changelog = "https://github.com/89g-dyy/nfc-coil-calculator/blob/main/CHANGELOG.md"
+
+[project.gui-scripts]
+nfc-coil-calculator = "nfc_coil_calculator.app:main"
+
+[project.scripts]
+nfc-coil = "nfc_coil_calculator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nfc_coil_calculator = ["assets/*"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra"

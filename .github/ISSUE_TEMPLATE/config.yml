@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Calculation background
+    url: https://github.com/89g-dyy/nfc-coil-calculator/blob/main/docs/ALGORITHM.md
+    about: Formulas, constants and the known limits of the model

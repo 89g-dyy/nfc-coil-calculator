@@ -1,0 +1,242 @@
+[
+  {
+    "input": {
+      "turns": 1,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 246.7291276789786,
+    "srf_hz": 300000000,
+    "leq_uh": 0.24723423711477358
+  },
+  {
+    "input": {
+      "turns": 1,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 444.81571537786533,
+    "srf_hz": 300000000,
+    "leq_uh": 0.4457263521443503
+  },
+  {
+    "input": {
+      "turns": 2,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 766.2274170861135,
+    "srf_hz": 113600000,
+    "leq_uh": 0.7773026499057196
+  },
+  {
+    "input": {
+      "turns": 2,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 1460.4636607707864,
+    "srf_hz": 81100000,
+    "leq_uh": 1.5024668800875587
+  },
+  {
+    "input": {
+      "turns": 3,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 1472.19485814284,
+    "srf_hz": 102900664.61538461,
+    "leq_uh": 1.4982117991682533
+  },
+  {
+    "input": {
+      "turns": 3,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 2932.420308280502,
+    "srf_hz": 71677606.15384614,
+    "leq_uh": 3.0412648451331927
+  },
+  {
+    "input": {
+      "turns": 4,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 2309.807115506816,
+    "srf_hz": 74564886.25,
+    "leq_uh": 2.3888079907550868
+  },
+  {
+    "input": {
+      "turns": 4,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 4789.784517327152,
+    "srf_hz": 51223348.75,
+    "leq_uh": 5.150739490315426
+  },
+  {
+    "input": {
+      "turns": 5,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 3237.94546136375,
+    "srf_hz": 55412962,
+    "leq_uh": 3.444190653083106
+  },
+  {
+    "input": {
+      "turns": 5,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 6979.933853793683,
+    "srf_hz": 37544092,
+    "leq_uh": 8.027042458251625
+  },
+  {
+    "input": {
+      "turns": 8,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 6260.148699046469,
+    "srf_hz": 48108028,
+    "leq_uh": 6.800430954859958
+  },
+  {
+    "input": {
+      "turns": 8,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 15154.839432846054,
+    "srf_hz": 31170809,
+    "leq_uh": 18.692243400494018
+  },
+  {
+    "input": {
+      "turns": 12,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 10030.794555354449,
+    "srf_hz": 29981915.99999999,
+    "leq_uh": 12.61022221559563
+  },
+  {
+    "input": {
+      "turns": 12,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 28717.81066577522,
+    "srf_hz": 18440780.999999993,
+    "leq_uh": 62.5259140619361
+  },
+  {
+    "input": {
+      "turns": 15,
+      "length_mm": 75,
+      "width_mm": 45,
+      "trace_mm": 0.6,
+      "spacing_mm": 0.6,
+      "copper_um": 35,
+      "substrate_mm": 1,
+      "epsilon_r": 4.6
+    },
+    "l0_nh": 12128.569104941425,
+    "srf_hz": 29366054.99999999,
+    "leq_uh": 15.415453878940417
+  },
+  {
+    "input": {
+      "turns": 15,
+      "length_mm": 100,
+      "width_mm": 80,
+      "trace_mm": 0.3,
+      "spacing_mm": 0.4,
+      "copper_um": 70,
+      "substrate_mm": 1,
+      "epsilon_r": 3.2
+    },
+    "l0_nh": 40120.33865666224,
+    "srf_hz": 17399324.999999993,
+    "leq_uh": 102.18403097028555
+  }
+]

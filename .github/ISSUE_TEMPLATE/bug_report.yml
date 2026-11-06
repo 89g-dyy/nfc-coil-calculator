@@ -1,0 +1,41 @@
+name: Bug report
+description: Something is wrong with the calculation, the interface or an export
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Numerical issues are much easier to investigate with the parameter set
+        and the exported CSV.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the observed behaviour and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: parameters
+    attributes:
+      label: Parameters
+      description: Turns, outer length/width, conductor width, spacing, copper thickness, substrate thickness and εr, or the saved JSON project.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release tag or commit hash, and whether you used the executable or ran from source.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and Python version (for source runs).
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Screenshots, CSV output, CAD files or error dialogs.

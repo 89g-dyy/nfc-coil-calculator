@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Environments
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# Vendored LibreDWG command line tools (downloaded, GPL-3.0-or-later)
+tools/libredwg/
+tools/*.zip
+tools/download-parts/
+tools/source-parts/
+
+# Local exports and verification output
+verification-output/
+*.dxf
+*.dwg
+*.svg
+!src/nfc_coil_calculator/assets/*.svg
+!docs/images/*.svg
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
