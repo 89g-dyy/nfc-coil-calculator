@@ -28,6 +28,7 @@ verification-output/
 *.dxf
 *.dwg
 *.svg
+!src/nfc_coil_calculator/assets/*.dxf
 !src/nfc_coil_calculator/assets/*.svg
 !docs/images/*.svg
 

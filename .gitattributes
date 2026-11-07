@@ -1,5 +1,6 @@
 * text=auto eol=lf
 *.bat text eol=crlf
+*.dxf -text
 *.png binary
 *.ico binary
 *.zip binary
